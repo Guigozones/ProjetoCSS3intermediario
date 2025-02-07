@@ -26,11 +26,31 @@
 	padding: 20px;
 }*/
 
-#noticia{
+/*#noticia{
 	background: #f9f9f9;
 	padding: 10px;
 	border: 1px solid gray;
 }
 h2{
 	margin: 0px;
+}*/
+
+.conteudo{
+	background: blue;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+
+}
+
+
+.conteudo1{
+	background: red;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: left;
 }
