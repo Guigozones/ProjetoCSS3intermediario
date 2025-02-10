@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Elementos flutuantes na prática</title>
+	<style type="text/css">
+
+		body{
+			background: #f4f4f4;
+
+		}
+		#principal{
+			width: 920px;
+		}
+		.noticia{
+			background:#e5e5e5;
+			padding: 5px;
+			width: 280px;
+			margin: 7px;
+			float: left;
+		}
+		.clear{
+			clear: both;
+		}
+
+		.imagem-galeria {
+		    background: white;
+		    width: 265px; /* Define um tamanho fixo para os blocos da galeria */
+		    padding: 5px;
+		    float: left;
+		    margin: 15px;
+		    display: block;
+		}
+
+		.imagem-galeria img {
+		    width: 100%; /* Faz a imagem se ajustar ao tamanho do bloco */
+		    height: auto; /* Mantém a proporção da imagem */
+		    display: block; /* Evita espaços indesejados */
+		}
+	</style>
+</head>
+<body>
+	<div id="principal">
+		<div>
+			<div class="noticia">
+				<h2>Lucia é nojenta</h2>
+				<p>noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa </p>
+				<a href="">veja mais</a>
+			</div>
+
+			<div class="noticia">
+				<h2>Edmundo é carente</h2>
+				<p>noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa </p>
+				<a href="">veja mais</a>
+			</div>
+
+			<div class="noticia">
+				<h2>Pedra morde dedo</h2>
+				<p>noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa noticia um pouco mais extensa </p>
+				<a href="">veja mais</a>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div>
+			<div class="imagem-galeria">
+				<img src="imagens/gatos1.png">
+				<p>Gatinhos</p>
+			</div>
+			<div class="imagem-galeria">
+				<img src="imagens/gatos2.png">
+				<p>bem</p>
+			</div>
+			<div class="imagem-galeria">
+				<img src="imagens/gatos3.png">
+				<p>fofinhos</p>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
